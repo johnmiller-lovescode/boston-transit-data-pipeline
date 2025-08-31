@@ -4,16 +4,20 @@
 # Python
 __pycache__/
 *.pyc
-
-# Build outputs
-build/
-*.zip
+.venv/
 
 # Terraform
 .terraform/
+.terraform.lock.hcl
 *.tfstate
 *.tfstate.*
-terraform.tfstate*
 crash.log
-crash.*.log
-*.tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars
+tfplan
+
+# Build artifacts
+build/*.zip
