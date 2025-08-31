@@ -1,3 +1,16 @@
+<h1 align="center">Boston Transit Data Pipeline 🚍</h1>
+<p align="center">
+  <b>Serverless AWS Data Engineering Project</b><br>
+  <i>MBTA real-time transit data → S3 → Glue → Athena → Analytics</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-Serverless-orange?logo=amazonaws&logoColor=white">
+  <img src="https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform">
+  <img src="https://img.shields.io/badge/Python-Automation-blue?logo=python">
+  <img src="https://img.shields.io/badge/Athena-SQL%20Analytics-232F3E?logo=amazonaws">
+  <img src="https://img.shields.io/badge/Project-Completed-brightgreen">
+</p>
 # Boston Transit Data Pipeline 🚍 
  ![terraform-ci](https://github.com/johnmiller-lovescode/boston-transit-data-pipeline/actions/workflows/deploy.yml/badge.svg)
 *Serverless AWS Data Engineering Project*
@@ -82,3 +95,14 @@ Transform Lambda → S3 (curated, Parquet) → Glue Data Catalog → Athena → 
 MIT
 
 [def]: https://github.com/johnmiller-lovescode/boston-transit-data-pipeline/actions/workflows/deploy.yml/badge.svg
+
+---
+
+## 📸 Project Screenshots
+
+### 1. Curated Parquet Files in S3
+<img src="assets/parquetfiles.png" width="750" />
+
+### 2. Athena Query Results
+<img src="assets/athenaquery.png" width="750" />
+
