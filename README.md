@@ -1,4 +1,5 @@
-# Boston Transit Data Pipeline 🚍  
+# Boston Transit Data Pipeline 🚍 
+ ![terraform-ci](https://github.com/johnmiller-lovescode/boston-transit-data-pipeline/actions/workflows/deploy.yml/badge.svg)
 *Serverless AWS Data Engineering Project*
 
 An end-to-end serverless data pipeline on AWS that ingests real-time MBTA (Boston) transit data, stores it in Amazon S3, processes and normalizes it with Python Lambda functions, catalogs the data with AWS Glue, and enables SQL-based analytics in Amazon Athena.
@@ -79,3 +80,5 @@ Transform Lambda → S3 (curated, Parquet) → Glue Data Catalog → Athena → 
 
 ## License
 MIT
+
+[def]: https://github.com/johnmiller-lovescode/boston-transit-data-pipeline/actions/workflows/deploy.yml/badge.svg
