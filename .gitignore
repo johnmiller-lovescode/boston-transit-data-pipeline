@@ -4,20 +4,22 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
 .venv/
+venv/
 
 # Terraform
-.terraform/
-.terraform.lock.hcl
+**/.terraform/
 *.tfstate
 *.tfstate.*
 crash.log
 override.tf
 override.tf.json
-*_override.tf
-*_override.tf.json
-terraform.tfvars
-tfplan
+*override.tf
+*override.tf.json
+.terraform.lock.hcl
 
-# Build artifacts
-build/*.zip
+# VS Code
+.vscode/
