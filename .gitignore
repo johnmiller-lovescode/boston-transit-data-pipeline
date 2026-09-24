@@ -23,3 +23,9 @@ override.tf.json
 
 # VS Code
 .vscode/
+
+# Local build artifacts
+build/
+
+# Local tooling
+.agents/
