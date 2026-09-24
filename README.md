@@ -6,14 +6,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AWS-Serverless-orange?logo=amazonaws&logoColor=white">
-  <img src="https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-ETL-blue?logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Athena-SQL%20Analytics-232F3E?logo=amazonaws">
-  <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white">
-</p>
-
-<p align="center">
   <img src="https://github.com/johnmiller-lovescode/boston-transit-data-pipeline/actions/workflows/deploy.yml/badge.svg">
 </p>
 
@@ -22,6 +14,16 @@
 Boston Transit Analytics is an end-to-end cloud data engineering project that collects MBTA vehicle-position data, processes it through a serverless AWS pipeline, stores analytics-ready Parquet data in Amazon S3, queries it with Amazon Athena, and presents the results in an interactive Python dashboard.
 
 The project demonstrates how raw public API data can be transformed into a queryable cloud data lake and then surfaced through an application designed for exploration and analysis.
+
+### Dashboard Preview
+
+<p align="center">
+  <img src="assets/dashboard-overview.png" width="1100" alt="Boston Transit Analytics dashboard showing MBTA vehicle metrics, route analytics, and interactive vehicle map">
+</p>
+
+<p align="center">
+  <i>Interactive analytics dashboard displaying processed MBTA vehicle data, route activity, and geographic vehicle positions.</i>
+</p>
 
 ## Architecture
 
@@ -231,13 +233,21 @@ This project demonstrates practical experience with:
 
 ## Screenshots
 
+## Screenshots
+
+### Interactive Vehicle Map & Data
+
+<img src="assets/dashboard-map.png" width="1000" alt="Interactive MBTA vehicle map and vehicle data table">
+
+*Detailed vehicle view with MBTA route names, vehicle status, speed data, and geographic positions.*
+
 ### Athena Query Results
 
-<img src="assets/athenaquery.png" width="800">
+<img src="assets/athenaquery.png" width="800" alt="Amazon Athena query results">
 
-### Curated Parquet Data
+### Curated Parquet Data in Amazon S3
 
-<img src="assets/parquetfiles.png" width="800">
+<img src="assets/parquetfiles.png" width="800" alt="Curated Parquet files stored in Amazon S3">
 
 ## License
 
